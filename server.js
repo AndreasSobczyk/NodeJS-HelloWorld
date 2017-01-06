@@ -3,7 +3,7 @@ var app = express();
 var port = process.env.port || 1337
 
 app.get('/', function (req, res) {
-    res.send('Hello World! ASOB release');
+    res.send('Hello World! ASOB release to prod');
 });
 
 var server = app.listen(port, function () {
